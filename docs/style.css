@@ -18,7 +18,7 @@
 /* Estilos gerais */
 body {
     font-family: 'Roboto';
-    line-height: 1.6;
+    line-height: 1.7;
 }
 
 header {
@@ -26,8 +26,11 @@ header {
     color: white;
     padding: 1rem;
     text-align: center;
+    width: 100%;
 }
-
+nav {
+    width: 100%;
+}
 nav ul {
     display: flex;
     justify-content: center;
@@ -72,6 +75,7 @@ footer {
     background-color: #141D28;
     color: white;
     margin-top: 1rem;
+    width: 100%;
 }
 .container {
     display: flex;
