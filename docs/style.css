@@ -15,7 +15,7 @@
     box-sizing: border-box;
 }
 
-/* Estilos gerais */
+
 body {
     font-family: 'Roboto';
     line-height: 1.7;
@@ -64,6 +64,7 @@ main {
     background-color: #f4f4f4;
 }
 
+
 .content {
     flex: 1;
     margin: 0 1rem;
@@ -71,9 +72,15 @@ main {
     background-color: white;
     border: 1px solid #ccc;
     border-radius: 5px;
+    
+}
+.content p {
+   text-align: justify;
+    
 }
 
-/* Rodapé */
+
+
 footer {
     text-align: center;
     padding: 1rem;
