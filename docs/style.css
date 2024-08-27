@@ -86,3 +86,17 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
 }
+.container div a {
+   
+    width: 1px;
+    height: 1px;
+    text-decoration: none;
+    color: white;
+
+}
+#curs:hover {
+    color:#3287C1 ;
+}
+#curs1:hover {
+    color:#3287C1 ;
+}
