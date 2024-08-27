@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 400px;
+            height: 300px;
+            border: 3px solid black;
+            display: flex;}
+        .container {
+            flex-direction: row;
+
+            /* 
+            flex-direction: ; (Organiza os elementos em linha vertical ou horizontal)::
+
+            column: (Deixa os elementos em coluna de cima para baixo)
+
+            column-reverse: (Deixa os elementos em coluna e inverte a direção da coluna de baixo para cima)
+
+            row: (Organiza os elementos em linha da esqueda para direita)
+
+            row-reverse: (Inverte a linha como se tivesse organizado da direta para esquerda)
+
+            */
+
+            gap: ;
+
+            /*
+
+            gap: ; (Coloca um espaço entre os flex-items EX: 10px o espaço entre todos os intens vai ser de 10px) 
+
+            */
+
+            justify-content: center;
+
+            /* 
+            justify-content:  ; (Alinha os elementos horizontalmente)
+            
+            center: (Deixa todos os elementos no centro da área do container pai na horizontal)
+
+            flex-start: (Deixa os elementos filhos no começo do elemento pai na horizontal)
+
+            flex-end: (Deixa os elementos filhos no final do elemento pai na horizontal)
+
+            space-evenly: (Deixa espaços iguais entre todos os elementos, inclusive das bordas)
+
+            space-around: (Deixa espaços iguais entre os elementos menos em relação a borda)
+
+            space-between: (Vai distanciar os elementos o maximo que puder)
+
+            */
+
+            align-items:  ;
+            
+            /* 
+            align-items: ; (Organiza os elementos verticalmente)
+
+            center: (Deixa todos os elementos no centro da área do container pai na vertical)
+
+            flex-start: (Deixa os elementos filhos no começo do elemento pai na vertical)
+
+            flex-end: (Deixa os elementos filhos no final do elemento pai na vertical)    
+            
+            */
+
+            flex-wrap:  ;
+            
+            /*
+             flex-wrap: ; (Permite a quebra de linha caso os elementos passem da largura da tela)
+             
+             
+
+             */
+            
+            
+        }
+        .container > div{
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            border: 1px solid black;
+            text-align: center;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <!-- <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div> -->
+    </div>
+</body>
+</html>
