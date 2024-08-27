@@ -36,6 +36,11 @@ nav ul {
     justify-content: center;
     background-color: #2274A5;
 }
+nav ul i {
+    display: flex;
+    justify-content: center;
+    background-color: #2274A5;
+}
 
 nav ul li {
     list-style: none;
